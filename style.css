@@ -1,0 +1,266 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* Navigation Part */
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: #FFF8F3;
+    padding: 15px 100px;
+
+    
+}
+nav h2 span{
+color: #FD6E0A;
+}
+.list-a{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    gap:40px;
+    
+}
+.list-a li a{
+    text-decoration: none;
+    color: #474747;
+}
+.list-a li a.important{
+    background-color:#FD6E0A;
+    padding: 10px 15px;
+    border-radius: 5px;
+    color: white;
+}
+/* banner section */
+.important{
+    background-color:#FD6E0A;
+    padding: 10px 15px;
+    border-radius: 5px;
+    color: white;
+}
+.banner-a{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: #FFF8F3;
+    padding: 15px 50px;
+    
+}
+.banner-a div a{
+    text-decoration: none;
+}
+.banner-a .zone-a{
+    padding-left: 50px;
+}
+.banner-a .zone-a .important-2{
+    border: 1px solid #FD6E0A;
+     padding: 10px 15px;
+    border-radius: 5px;
+    color: #FD6E0A;
+}
+img{
+    max-width: 100%;
+}
+/* about me section start */
+.about{
+    align-items: center;
+    max-width: 700px;
+    margin: 60px auto;
+    background-color: #FFF8F3;
+    padding: 100px 100px;
+    
+}
+.zone-c h3{
+    text-align: center;
+    line-height: 3;
+    font-size: 25px;
+    
+}
+.zone-c .my{
+    color: #757575;
+    text-align: center;
+    
+}
+.zone-d{
+    display: flex;
+    justify-content: space-between;
+}
+/* summery of my resume section start  */
+.resume {
+    margin: auto;
+    max-width: 1100px;
+}
+.resume h2{
+    text-align: center;
+    margin-bottom: 50px;
+}
+.container{
+    display: flex;
+    gap: 50px;
+}
+.education ,.experience{
+    flex:1;
+}
+.items{
+    padding:25px 0;
+    border-bottom:1px solid #ddd;
+}
+.items h4{
+    margin-bottom: 10px;
+}
+.items h5{
+    margin-bottom: 15px;
+     color:gray;
+}
+.items p{
+
+    color:#666;
+
+    line-height:1.7;
+}
+.btn button{
+    background-color:#FD6E0A;
+    padding: 10px 15px;
+    border-radius: 5px;
+    color: white;
+    border: none;
+    outline: none;
+}
+.btn{
+    text-align: center;
+    margin-top: 55px;
+    border: none;
+    outline: none;
+}
+/* my skills section start */
+.my-skills{
+    align-items: center;
+    max-width: 900px;
+    margin: 60px auto;
+    padding: 0 100px;
+    
+}
+.zone-e{
+    text-align: center;
+}
+.zone-f{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    height: 250px;
+    background-color: #faf8f8;
+    border-radius: 5px;
+    margin-top: 20px;
+   
+    
+}
+.zone-f p{
+    width: 160px;
+    text-align: center;
+}
+.zone-f .card{
+ padding: 20px 5px;
+ padding-left: 20px;
+ padding-right: 20px;
+background-color: #ffffff;
+  margin-top: 8px;
+  border-radius: 10px;
+  box-shadow: 1px 1px 10px rgba(0,0,0,0.3)
+}
+/* my project sample section start */
+.projects-sample{
+    align-items: center;
+    max-width: 900px;
+    margin: 60px auto;
+    padding: 0 100px;
+    text-align: center;
+    margin:80px auto;
+}
+.projects-sample .zone-g{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 10px;
+    grid-auto-rows: minmax(180px, auto);
+    padding: 10px;
+    grid-template-areas: "on tw tre"
+    "on fiv tre"
+    "fr fiv sx";
+}
+.box img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.box-1{
+grid-area: on;
+}
+.box-2{
+grid-area: tw;
+}
+.box-3{
+grid-area: tre;
+}
+.box-4{
+grid-area: fr;
+}
+.box-5{
+grid-area: fiv;
+}
+.box-6{
+grid-area: sx;
+}
+.projects-sample h3{
+    font-size: 25px;
+    padding: 20px;
+}
+/* footer section start  */
+footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    max-width: 1200px;
+    margin: 60px auto;
+    padding: 80px 100px;
+    background-color: #FFF8F3;
+    gap: 80px;
+
+}
+.zone-h,.zone-i{
+    flex:1;
+}
+.zone-i input{
+    display: block;
+    width:60%;
+    margin-bottom: 15px;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+}
+.zone-i button{
+    display: block;
+    margin-bottom: 15px;
+     background-color:#FD6E0A;
+    padding: 10px 15px;
+    border-radius: 5px;
+    color: white;
+    border: none;
+    outline: none;
+    margin: 5px;
+}
+form textarea{
+    padding: 20px;
+    width: 50%;
+    border: none;
+    outline: none;
+}
+
+
+
